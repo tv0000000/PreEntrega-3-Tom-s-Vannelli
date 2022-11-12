@@ -1,0 +1,148 @@
+/* ============ FONT ============*/
+@import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
+/* ============ NAV ============*/
+header {
+  border-bottom: 4px solid black;
+}
+header img {
+  width: 7rem;
+  border-radius: 0.5rem;
+}
+header li {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+
+/* ============ FOOTER ============*/
+footer {
+  border-top: 4px solid black;
+}
+footer span {
+  font-weight: bold;
+}
+
+/* ============ INDEX ============*/
+.mainIndex {
+  background: #CCDCD9;
+}
+.mainIndex .tituloIndex {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.mainIndex .carouselIndex {
+  padding-bottom: 20px;
+}
+.mainIndex .parrafoIndex {
+  font-weight: bold;
+}
+
+/* ============ NOSOTROS ============*/
+.sectionNos1 {
+  background-color: #CCDCD9;
+}
+.sectionNos1 .subtituloNosotros {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.sectionNos1 .parrafoNosotros {
+  font-family: "Roboto", sans-serif;
+}
+.sectionNos1 .imgNuestro {
+  width: 610px;
+  height: 610px;
+  border-radius: 4px;
+}
+@media (min-width: 0px) and (max-width: 480px) {
+  .sectionNos1 .imgNuestro {
+    object-fit: contain;
+    margin-bottom: 15px;
+    height: 250px;
+    width: 250px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1000px) {
+  .sectionNos1 .imgNuestro {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+}
+
+/* ============ CHARLAS ============*/
+.textoCharlas {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 25px;
+  animation-name: animationtex;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animationtex {
+  0% {
+    color: black;
+  }
+  100% {
+    color: red;
+  }
+}
+/* ============ PRODUCTOS ============*/
+.cardProductos {
+  border: 1px solid black;
+}
+.cardProductos h2 {
+  font-size: 1.5rem;
+}
+
+/* ============ CONTACTO ============*/
+.backgroundContact {
+  background: #CCDCD9;
+}
+.backgroundContact h1 {
+  font-size: 2rem;
+}
+.backgroundContact .imgContact {
+  width: 500px;
+  border-radius: 40px;
+  margin-left: 220px;
+}
+.backgroundContact .botonSubmit {
+  width: 100px;
+  color: white;
+}
+.backgroundContact .textArea {
+  width: 400px;
+  border-radius: 10px;
+}
+@media (min-width: 0px) and (max-width: 480px) {
+  .backgroundContact .backgroundContact {
+    background-image: url("../img/contactoresp.jpg");
+  }
+  .backgroundContact .imgContact {
+    display: none;
+  }
+  .backgroundContact .textArea {
+    width: 240px;
+    border-radius: 10px;
+  }
+  .backgroundContact .textInput {
+    width: 240px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1000px) {
+  .backgroundContact .imgContact {
+    width: 200px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .backgroundContact .textInput {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,10 @@
+/* ============ FOOTER ============*/
+
+  footer {
+    border-top: 4px solid black;
+
+    span {
+      @include titulos;
+    }
+  }
+  

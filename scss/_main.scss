@@ -1,0 +1,152 @@
+/* ============ INDEX ============*/
+
+.mainIndex {
+  background: $color-fondos;
+
+  .tituloIndex {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 2.5rem;
+    @include titulos;
+  }
+
+  .carouselIndex {
+    padding-bottom: 20px;
+  }
+
+  .parrafoIndex {
+    @include titulos;
+  }
+}
+
+/* ============ NOSOTROS ============*/
+
+.sectionNos1 {
+  background-color: $color-fondos;
+
+
+  .subtituloNosotros {
+    @include letra;
+    @include titulos;
+  }
+
+  .parrafoNosotros {
+    @include letra;
+  }
+
+  .imgNuestro {
+    width: 610px;
+    height: 610px;
+    border-radius: 4px;
+  }
+
+  @media (min-width:0px) and (max-width:480px) {
+    .imgNuestro {
+      object-fit: contain;
+      margin-bottom: 15px;
+      height: 250px;
+      width: 250px;
+    }
+  }
+
+  @media (min-width:481px) and (max-width:1000px) {
+    .imgNuestro {
+      height: 300px;
+      width: 300px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+/* ============ CHARLAS ============*/
+
+.textoCharlas {
+  @include letra;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 25px;
+  animation-name: animationtex;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+  @keyframes animationtex {
+    0% {
+      color: black;
+    }
+
+    100% {
+      color: red;
+    }
+  }
+
+/* ============ PRODUCTOS ============*/
+
+.cardProductos {
+  border: 1px solid black;
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+/* ============ CONTACTO ============*/
+
+.backgroundContact {
+  background: $color-fondos;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .imgContact {
+    width: 500px;
+    border-radius: 40px;
+    margin-left: 220px;
+  }
+
+  .botonSubmit {
+    width: 100px;
+    color: white
+  }
+
+  .textArea {
+    width: 400px;
+    border-radius: 10px;
+  }
+
+  @media (min-width: 0px) and (max-width: 480px) {
+    .backgroundContact {
+      background-image: url("../img/contactoresp.jpg");
+    }
+
+    .imgContact {
+      display: none;
+    }
+
+    .textArea {
+      width: 240px;
+      border-radius: 10px;
+    }
+
+    .textInput {
+      width: 240px;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 1000px) {
+    .imgContact {
+      width: 200px;
+      border-radius: 30px;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .textInput {
+      width: 300px;
+    }
+  }
+}
+

@@ -34,28 +34,28 @@
     @include letra;
   }
 
-  .imgNuestro {
-    width: 610px;
-    height: 610px;
-    border-radius: 4px;
-  }
+  // .imgNuestro {
+  //   width: 610px;
+  //   height: 610px;
+  //   border-radius: 5px;
+  // }
 
-  @media (min-width:0px) and (max-width:480px) {
-    .imgNuestro {
-      object-fit: contain;
-      margin-bottom: 15px;
-      height: 250px;
-      width: 250px;
-    }
-  }
+  // @media (min-width:0px) and (max-width:480px) {
+  //   .imgNuestro {
+  //     object-fit: contain;
+  //     margin-bottom: 15px;
+  //     height: 250px;
+  //     width: 250px;
+  //   }
+  // }
 
-  @media (min-width:481px) and (max-width:1000px) {
-    .imgNuestro {
-      height: 300px;
-      width: 300px;
-      margin-bottom: 10px;
-    }
-  }
+  // @media (min-width:481px) and (max-width:1000px) {
+  //   .imgNuestro {
+  //     height: 300px;
+  //     width: 300px;
+  //     margin-bottom: 10px;
+  //   }
+  // }
 }
 
 /* ============ CHARLAS ============*/

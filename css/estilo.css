@@ -50,26 +50,6 @@ footer span {
 .sectionNos1 .parrafoNosotros {
   font-family: "Roboto", sans-serif;
 }
-.sectionNos1 .imgNuestro {
-  width: 610px;
-  height: 610px;
-  border-radius: 4px;
-}
-@media (min-width: 0px) and (max-width: 480px) {
-  .sectionNos1 .imgNuestro {
-    object-fit: contain;
-    margin-bottom: 15px;
-    height: 250px;
-    width: 250px;
-  }
-}
-@media (min-width: 481px) and (max-width: 1000px) {
-  .sectionNos1 .imgNuestro {
-    height: 300px;
-    width: 300px;
-    margin-bottom: 10px;
-  }
-}
 
 /* ============ CHARLAS ============*/
 .textoCharlas {

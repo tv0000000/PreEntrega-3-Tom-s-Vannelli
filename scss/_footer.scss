@@ -1,7 +1,7 @@
 /* ============ FOOTER ============*/
 
   footer {
-    border-top: 4px solid black;
+    border-top: $bordes-main;
 
     span {
       @include titulos;

@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
 /* ============ NAV ============*/
 header {
-  border-bottom: 4px solid black;
+  border-bottom: 1px solid black;
 }
 header img {
   width: 7rem;
@@ -16,7 +16,7 @@ header li {
 
 /* ============ FOOTER ============*/
 footer {
-  border-top: 4px solid black;
+  border-top: 1px solid black;
 }
 footer span {
   font-weight: bold;
@@ -30,6 +30,7 @@ footer span {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 2.5rem;
+  text-transform: uppercase;
   font-weight: bold;
 }
 .mainIndex .carouselIndex {
@@ -52,16 +53,15 @@ footer span {
 }
 
 /* ============ CHARLAS ============*/
-.textoCharlas {
+.mainCharlas .textoCharlas {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  padding-top: 15px;
-  font-size: 25px;
+  padding-top: 1rem;
+  font-size: 1.5rem;
   animation-name: animationtex;
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
 }
-
 @keyframes animationtex {
   0% {
     color: black;
@@ -70,9 +70,10 @@ footer span {
     color: red;
   }
 }
+
 /* ============ PRODUCTOS ============*/
-.cardProductos {
-  border: 1px solid black;
+.cardProductos:hover {
+  transform: scale(1.02);
 }
 .cardProductos h2 {
   font-size: 1.5rem;
@@ -99,9 +100,6 @@ footer span {
   border-radius: 10px;
 }
 @media (min-width: 0px) and (max-width: 480px) {
-  .backgroundContact .backgroundContact {
-    background-image: url("../img/contactoresp.jpg");
-  }
   .backgroundContact .imgContact {
     display: none;
   }
@@ -114,14 +112,11 @@ footer span {
   }
 }
 @media (min-width: 481px) and (max-width: 1000px) {
-  .backgroundContact .imgContact {
-    width: 200px;
-    border-radius: 30px;
-    margin-left: 20px;
-    margin-top: 20px;
-  }
   .backgroundContact .textInput {
     width: 300px;
+  }
+  .backgroundContact .imgContact {
+    display: none;
   }
 }
 

@@ -5,3 +5,9 @@
 @mixin letra {
     font-family: 'Roboto', sans-serif;
 }
+
+@mixin hoverCards {
+    &:hover {
+        transform: scale(1.02);
+      };
+}
